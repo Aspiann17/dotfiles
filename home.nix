@@ -66,7 +66,7 @@
         alias grep='grep --color=auto'
         PS1='[\u@\h \W]\$ '
 
-        . /home/aspian/.nix-profile/etc/profile.d/nix.sh
+        . $HOME/.nix-profile/etc/profile.d/nix.sh
 
         # Home Manager
         . "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"
